@@ -1,15 +1,20 @@
 @font-face {
     font-family: "DejaVuSans";
     src: url('../fonts/DejaVuSans.eot');
-    src: url('../fonts/DeJaVuSans.woff') format('woff');
+    src: url('../fonts/DejaVuSans.woff') format('woff'),
     url('../fonts/DejaVuSans.ttf') format('truetype'),
-    url('../fonts/DejaVuSans.svg#svgFontName') format('svg'),
+    url('../fonts/DejaVuSans.svg#svgFontName') format('svg');
     
 
 }
 body{
 	background-color: #F0F0F0;
 	font-family: "DejaVuSans";
+}
+.monospace-text{
+	font-family: monospace; 
+	font-size: 13px; 
+	margin-top: 10px;
 }
 .heading{
 	padding-bottom: 4rem;
@@ -207,8 +212,8 @@ body{
     border-radius: 3px;
     background-color: #FFC100;
 }
-.download-image{
-
+.disabled-button[disabled]{
+	
 }
 
 @media (max-width: 550px) {
